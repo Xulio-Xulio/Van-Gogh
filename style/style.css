@@ -5,16 +5,77 @@
 
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #fff url(images/fundo.png) repeat-x;
+   
 }
 
-.content {
+.all-content {
+    
     width: 960px;
-    margin-left: 440px;
+    margin-left: 230px;
+    
+}
+
+.top-content {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: center;
 }
 
 header img {
-    width: 155px;
-    height: 155px;
+    width: 135px;
+    height: 135px;
+    align-items: center;
+}
+
+.nav-top {
+    width: 760px;
+    margin-left: 100px;
+}
+
+.nav-top ul{
+    list-style: none;
+    
+}
+
+.nav-top li#img-logo {
+    margin: 15px 30px 15px 30px ;
+    width: 135px;
+    height: 135px;
+}
+
+.nav-top li {
+    float: left;
+    padding: 0;
+    text-decoration: none;
+    margin: 70px 7.5px 0 7.5px;
+    
+}
+
+li.nav-a {
+    width: 108px;
+}
+
+.nav-top li a {
+    font-size: 1.4em;
+    color: #021438;
+    letter-spacing: 2px;
+      
+}
+
+.nav-top li a:hover {
+    text-decoration: none;
+    color: #53687D;
+    transition: 0.4s;
+    font-size: 1.6em;
+}
+
+hr {
+    margin: 0 15px;
+    float: inline-end;
+    border: 3px solid #53687D;
+    border-radius: 3px;
 }
 
