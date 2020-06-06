@@ -19,20 +19,15 @@ body {
     display: flex;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-}
-
-header img {
+.nav-top li#img-logo img {
     width: 135px;
     height: 135px;
-    align-items: center;
 }
 
 .nav-top {
-    width: 760px;
-    margin-left: 100px;
+    width: 724.40px;
+    margin-left: 117.795px;
+    
 }
 
 .nav-top ul{
@@ -60,14 +55,14 @@ li.nav-a {
 
 .nav-top li a {
     font-size: 1.4em;
-    color: #021438;
+    color: #334B8B;
     letter-spacing: 2px;
       
 }
 
 .nav-top li a:hover {
     text-decoration: none;
-    color: #53687D;
+    color: #56679B;
     transition: 0.4s;
     font-size: 1.6em;
 }
@@ -75,7 +70,23 @@ li.nav-a {
 hr {
     margin: 0 15px;
     float: inline-end;
-    border: 3px solid #53687D;
+    border: 3px solid rgba(2, 20, 56, 0.6);
     border-radius: 3px;
 }
 
+section#text-home {
+    margin-top: 60px;
+}
+
+section#text-home h1 {
+    text-align: center;
+    color: #021438;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+section#text-home p {
+    color: #181A15;
+    font-style: italic;
+    text-align: center;
+}
