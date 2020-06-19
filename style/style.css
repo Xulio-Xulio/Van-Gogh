@@ -90,3 +90,8 @@ section#text-home p {
     font-style: italic;
     text-align: center;
 }
+
+.hamburguer-button {
+    color: white;
+    background-color: #334B8B;
+}
