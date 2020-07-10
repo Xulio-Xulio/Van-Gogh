@@ -8,90 +8,27 @@ body {
    
 }
 
-.all-content {
-    
-    width: 960px;
-    margin-left: 230px;
-    
-}
-
-.top-content {
-    display: flex;
-}
-
-.nav-top li#img-logo img {
-    width: 135px;
-    height: 135px;
-}
-
-.nav-top {
-    width: 724.40px;
-    margin-left: 117.795px;
-    
-}
-
-.nav-top ul{
-    list-style: none;
-    
-}
-
-.nav-top #navbar #img-logo {
-    margin: 15px 30px 15px 30px ;
-    width: 135px;
-    height: 135px;
-}
-
-.nav-top li {
-    float: left;
-    padding: 0;
-    text-decoration: none;
-    margin: 70px 7.5px 0 7.5px;
-    
-}
-
-li.nav-a {
-    width: 108px;
-}
-
-.nav-top li a {
-    font-size: 1.4em;
-    color: #334B8B;
-    letter-spacing: 2px;
-      
-}
-
-.nav-top li a:hover {
-    text-decoration: none;
-    color: #56679B;
-    transition: 0.4s;
-    font-size: 1.6em;
-}
-
 hr {
     margin: 0 15px;
     float: inline-end;
-    border: 3px solid rgba(2, 20, 56, 0.6);
+    border: 3px solid #021438;
     border-radius: 3px;
 }
 
-section#text-home {
-    margin-top: 60px;
-}
-
-section#text-home h1 {
-    text-align: center;
+#brand-van-gogh {
+    text-decoration: none;
     color: #021438;
-    font-style: italic;
-    margin-bottom: 60px;
 }
 
-section#text-home p {
-    color: #181A15;
-    font-style: italic;
-    text-align: center;
+#navbar ul li a{
+    color: #021438;
 }
 
-.hamburguer-button {
-    color: white;
-    background-color: #334B8B;
+#navbar ul li a:hover {
+    color: #334B8B;
+    font-size: 1.2em;
+}
+
+#card-img-top {
+    width: 200px;
 }
