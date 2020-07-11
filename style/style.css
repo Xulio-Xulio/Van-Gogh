@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #334B8B;
 }
 
 body {
@@ -8,10 +9,23 @@ body {
    
 }
 
+@keyframes animation-opacity {
+    0%   {opacity: 0%;}
+    25%  {opacity: 25%;}
+    50%  {opacity: 50%;}
+    75%  {opacity: 75%;}
+    100% {opacity: 100%;}
+}
+
+#opacity-animation {
+    animation: animation-opacity ;
+    animation-duration: 1.5s;
+}
+
 hr {
     margin: 0 15px;
     float: inline-end;
-    border: 3px solid #021438;
+    border: 3px solid #334B8B;
     border-radius: 3px;
 }
 
@@ -27,4 +41,12 @@ hr {
 #navbar ul li a:hover {
     color: #334B8B;
     font-size: 1.2em;
+}
+
+#color-text {
+    color: #334B8B;
+}
+
+#banner-img {
+    width: 100%;
 }
